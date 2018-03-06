@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(methodOverride('_method'));
 app.set('view engine', 'ejs');
 // mongo URI
-const mongoURI = 'mongodb://imran:imran123@ds251827.mlab.com:51827/mongouploads';
+const mongoURI = <Your mongo string>;
 
 // create mongo connection
 const conn = mongoose.createConnection(mongoURI);
